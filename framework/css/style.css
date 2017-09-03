@@ -1,0 +1,30 @@
+.name {
+    color: #FAB2A8;
+    font-family: 'Great Vibes', cursive;
+    text-align: right;
+    padding-top: 10px;
+    font-size: 100px;
+}
+
+h4  {
+    font-family: 'Permanent Marker', cursive;
+}
+
+* {
+    /*font-family: 'Sedgwick Ave Display', cursive; */
+    /*Can be used for my About page*/
+
+    /*font-family: 'Raleway', sans-serif;*/
+    /*font-family: 'Amatic SC', cursive;*/
+    font-family: 'Permanent Marker', cursive;
+    color: #FAB2A8;
+}
+
+
+#body{
+    background-color: #F2E8E7;
+}
+
+.linkedin {
+    margin-top: 20px;
+}
