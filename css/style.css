@@ -6,6 +6,10 @@
     font-size: 100px;
 }
 
+[class*="col-"] {
+    width: 100%;
+}
+
 h4  {
     font-family: 'Permanent Marker', cursive;
 }
@@ -26,5 +30,14 @@ h4  {
 }
 
 .linkedin {
+    margin-top: 20px;
+}
+
+.nav-pills li {
+    font-size: 30px;
+    margin-left: 164px;
+} 
+
+.pill {
     margin-top: 20px;
 }
