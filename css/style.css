@@ -26,10 +26,27 @@ h4  {
     margin-top: 20px;
 }
 
-.nav-pills li {
-    font-size: 30px;
-    margin-left: 135px;
-} 
+.nav-pills li a{
+    font-size: 20px;
+    margin-left: 230px;
+    color: #000;
+    text-decoration: none;
+    /* background-color: #337ab7; */
+}
+
+
+
+.adjustAbout{
+    margin-left: 210px;
+}
+
+.adjustProjects  {
+    margin-left: 200px;
+}
+
+.adjustPhoto {
+    margin-left: 181px;
+}
 
 .pill {
     margin-top: 20px;
