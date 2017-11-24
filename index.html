@@ -93,14 +93,18 @@
                     <div id="about" class="tab-pane fade in active">
                         <div class="row">
 
-                            <div class="col-md-4">
-                                <img src="http://levysuniqueny.com/wp-content/uploads/2010/07/bronx-mural1.jpg" alt="the bronx" class="img-fluid" data-toggle="modal" data-target="#bronx" height="300" width="300"/>
+                            
+
+                            <div class="col-md-4"> 
+                                <p>Some content in about.</p>
                             </div>
-                            <div class="col-md-4">
-                                <img src="http://static.gohuskies.com/16_wbb_tourney/images/logos/syracuse.png" alt="syracuse" class="img-fluid" data-toggle="modal" data-target="#syracuse" height="300" width="300" /> 
+    
+                            <div class="col-md-4"> 
+                                <p>More content in about.</p>
                             </div>
-                            <div class="col-md-4">
-                                <img src="https://image.apkapk.website/com.ttech.toon.png" alt="syracuse" class="img-fluid" data-toggle="modal" data-target="#interests" height="300" width="300" /> 
+    
+                            <div class="col-md-4"> 
+                                <p>Some more content in about.</p>
                             </div>
 
                         </div>
@@ -120,20 +124,39 @@
                     </div>
                     
                     <div id="projects" class="tab-pane fade">
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="images/find-your-watson.jpg" alt="Find Your Watson" class="img-fluid" data-toggle="modal" data-target="#find-your-watson" height="300" width="300"/>
+                            </div>
+
+                            <div class="col-md-6">
+                                    <img src="images/mood-io.jpg" alt="MOOD.IO" class="img-fluid" data-toggle="modal" data-target="#mood-io" height="300" width="300"/>
+                            </div>
+                        </div>
+
                         <div class="row">
                             <div class="col-md-4">
-                                <!-- <img src="http://levysuniqueny.com/wp-content/uploads/2010/07/bronx-mural1.jpg" alt="the bronx" class="img-fluid" data-toggle="modal" data-target="#color-my-kicks" height="300" width="300"/> -->
-                                <p> Some content in projects </p>
+                                <!-- <img src="http://levysuniqueny.com/wp-content/uploads/2010/07/bronx-mural1.jpg" alt="the bronx" class="img-fluid" data-toggle="modal" data-target="#bronx" height="300" width="300"/> -->
+                                <a data-toggle="modal" data-target="#color-my-kicks" height="300" width="300">
+                                    <p class="change">
+                                        Color my Kicks
+                                    </p>
+                                </a>
                             </div>
-                                        
                             <div class="col-md-4">
-                                <!-- <img src="http://static.gohuskies.com/16_wbb_tourney/images/logos/syracuse.png" alt="syracuse" class="img-fluid" data-toggle="modal" data-target="#syracuse" height="300" width="300" />  -->
-                                <p> Some content in projects </p>
+                                <a data-toggle="modal" data-target="#recommend-and-chill" height="300" width="300">
+                                    <p class="change">
+                                        Recommend and Chill
+                                    </p>
+                                </a>
                             </div>
-                                            
                             <div class="col-md-4">
-                                <!-- <img src="https://image.apkapk.website/com.ttech.toon.png" alt="photography" class="img-fluid" data-toggle="modal" data-target="#interests" height="300" width="300" /> -->
-                                <p> Some content in projects </p>
+                                <a data-toggle="modal" data-target="#tic-tac-toe" height="300" width="300">
+                                    <p class="change">
+                                        Tic-Tac-Toe  
+                                    </p>  
+                                </a> 
                             </div>
                         </div>
                     </div>
@@ -157,22 +180,26 @@
                 </center>
 
                 <!-- Modals -->
-                <!--Bronx Modal-->
-                <div class="modal fade" id="bronx" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <!--Color My Kicks Modal-->
+                <div class="modal fade" id="color-my-kicks" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    <h4 class="modal-title" id="myModalLabel">Hometown</h4>
+                                    <h4 class="modal-title" id="myModalLabel">iOS 10 application</h4>
                             </div>
                             
                             <div class="modal-body">
-                                Born and raised in the Bronx, New York <br />
-                                Went to high school in Spanish Harlem <br />
-                                I love going to museums and art galleries and trying new restaurants
+                                <p>
+                                    An iOS 10 application with popular sneaker designs, Nike, Adidas and Air Jordan. 
+                                    9 colors are featured but there are options to create custom color and other adjustable settings such as brush size and opacity level.
+                                </p>
                             </div>
                             
                             <div class="modal-footer">
+                                <a href="https://github.com/fmustafa17/Color-My-Kicks">
+                                    GitHub
+                                </a>
                                 <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                                 
                             </div>
@@ -180,55 +207,111 @@
                     </div>
                 </div>        
 
-                <!--Syracuse Modal-->
-                <div class="modal fade" id="syracuse" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <!--Recommend-and-chill Modal-->
+                <div class="modal fade" id="recommend-and-chill" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    <h4 class="modal-title" id="myModalLabel">College</h4>
+                                    <h4 class="modal-title" id="myModalLabel">Spotify Application</h4>
                             </div>
                             
                             <div class="modal-body">
-                                4th year undergraduate <br />
-                                Studying Computer Science <br />
-                                Interested in Front End Web Development <br />
-                                Or software engineering <br /> 
-                                Or iOS engineering <br />
-                                Who knows...
+                                <p>
+                                    Implemented Spotify API calls with a client library called Spotipy. 
+                                    Application analyzes artists and songs of a user’s music playlist. 
+                                    Based on data found, song recommendations are made
+                                    and are shown as data plots through the Plot.ly API 
+                                </p>
                             </div>
                             
                             <div class="modal-footer">
+                                <a href="https://github.com/fmustafa17/Recommend-And-Chill">
+                                    GitHub
+                                </a>
                                 <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                                
                             </div>
                         </div>
                     </div>
                 </div>        
 
-                <!--Interests Modal-->
-                <div class="modal fade" id="interests" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <!--Tic-Tac-Toe Modal-->
+                <div class="modal fade" id="tic-tac-toe" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    <h4 class="modal-title" id="myModalLabel">Interests</h4>
+                                    <h4 class="modal-title" id="myModalLabel">iOS 10 Application</h4>
                             </div>
                             
                             <div class="modal-body">
-                                Photography <br />
-                                Basketball <br />
-                                Cooking <br />
-                                Baking <br />
+                                <p>
+                                    Coded single screen tic tac toe app. First player to tap on a box will be the X player. Second will be the O player.
+                                    Winning combination will be changed to green color.
+                                </p>
                             </div>
                             
                             <div class="modal-footer">
+                                <a href="https://github.com/fmustafa17/TicTacToe">
+                                    GitHub
+                                </a>
                                 <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                                 
                             </div>
                         </div>
                     </div>
                 </div>    
+
+                <!-- Find Your Watson Modal -->
+                <div class="modal fade" id="find-your-watson" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h4 class="modal-title" id="myModalLabel">HackHers Hackathon</h4>
+                                </div>
+                                
+                                <div class="modal-body">
+                                    Won category prize. <br />
+                                    Built with IBM Watson AI to generate a personality analysis for you by grabbing all your tweets, and then finds your top 5 personality matches on twitter. <br />
+                                    Maintained and adjusted front end development.
+                                </div>
+                                
+                                <div class="modal-footer">
+                                    <a href="https://devpost.com/software/find-your-watson">
+                                        DevPost
+                                    </a>
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+
+                    <!-- Mood.IO modal -->
+                    <div class="modal fade" id="mood-io" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                            <h4 class="modal-title" id="myModalLabel">HackNY Hackathon</h4>
+                                    </div>
+                                    
+                                    <div class="modal-body">
+                                            Inputting a key word and an image of a face, Clarifai API determines the emotion of the face. <br / >
+                                            Outputted are the results of related gifs based on the mood and keyword that was inputted.
+                                    </div>
+                                    
+                                    <div class="modal-footer">
+                                        <a href="https://devpost.com/software/find-your-watson">
+                                            DevPost
+                                        </a>
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
 
                 <!-- Footer -->
                 <footer>
