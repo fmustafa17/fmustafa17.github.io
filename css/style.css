@@ -34,13 +34,11 @@ h4  {
     /* background-color: #337ab7; */
 }
 
-
-
-.adjustAbout{
+.adjustAbout {
     margin-left: 210px;
 }
 
-.adjustProjects  {
+.adjustProjects {
     margin-left: 200px;
 }
 
@@ -50,4 +48,8 @@ h4  {
 
 .pill {
     margin-top: 20px;
+}
+
+.change:hover {
+    color: white;
 }
