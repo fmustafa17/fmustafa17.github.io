@@ -58,10 +58,10 @@ var work = {
     "jobs": [
         {
             "employer": "iD Tech Camp",
-            "title": "Lead Instructor",
+            "title": "Instructor",
             "location": "New York, NY",
             "dates": "May - August 2017 and May - August 2016",
-            "description": "Taught daily introductory programming classes for 7 – 17 year old kids. Customized lesson plans to accommodate and challenge students of differing skill sets. Single handedly organized and engaged staff and students to camp wide activities."
+            "description": "Taught 6 introductory programming classes for 7 – 17 year old kids. Customized lesson plans to accommodate and challenge students of differing skill sets. Single handedly organized and engaged staff and students to camp wide activities."
         },
         {
             "employer": "Syracuse University’s Information Technology Services",
@@ -75,7 +75,7 @@ var work = {
             "title": "Web Development Intern",
             "location": "Brooklyn, NY",
             "dates": "June – August 2015",
-            "description": "Restructured new company website through creating the user interface and site layouts. Deployed all final changes through company’s server."   
+            "description": "Restructured company website through the creation of a new user interface and site layout. Deployed all final changes through company’s server."   
         }
     ]
 };
