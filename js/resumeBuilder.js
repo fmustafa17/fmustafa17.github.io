@@ -85,34 +85,22 @@ var projects = {
         {
             "title": "Personal Website",
             "dates": "In Development",
-            "description": "Personal website to showcase front end development skills and projects. Deployed through GitHub pages and coded by scratch with Bootstrap.js features.",
-            "images": [
-                "http://via.placeholder.com/350x150"
-            ]
+            "description": "Personal website to showcase front end development skills and projects. Deployed through GitHub pages and coded by scratch with Bootstrap.js features."
         },
         {
             "title": "Doodle Pal",
             "dates": "October - December 2017",
-            "description": "Developed A.I. drawing application with TensorFlow’s Magenta library. Used “Google Quick, Draw!” dataset and Sketch-RNN.js to complete user’s unfinished drawing.",
-            "images": [
-                "http://via.placeholder.com/350x150"
-            ]
+            "description": "Developed A.I. drawing application with TensorFlow’s Magenta library. Used “Google Quick, Draw!” dataset and Sketch-RNN.js to complete user’s unfinished drawing."
         },
         {
             "title": "Recommend and Chill",
             "dates": "March - May 2017",
-            "description": "Implemented Spotify API calls with Python to analyze artists and songs of a user’s music playlist. Utilized Plot.ly API to show data found as the song recommendations.",
-            "images": [
-                "http://via.placeholder.com/350x150"
-            ]
+            "description": "Implemented Spotify API calls with Python to analyze artists and songs of a user’s music playlist. Utilized Plot.ly API to show data found as the song recommendations."
         },
         {
             "title": "Color My Kicks",
             "dates": "November - Decemeber 2016",
-            "description": "Created an iOS 10 application with Swift of popular sneaker designs featuring 9 various colors. Customized adjustable settings for brush size, opacity and custom colors.",
-            "images": [
-                "http://via.placeholder.com/350x150"
-            ]
+            "description": "Created an iOS 10 application with Swift of popular sneaker designs featuring 9 various colors. Customized adjustable settings for brush size, opacity and custom colors."
         }
     ]
 };
@@ -147,8 +135,6 @@ bio.display = function() {
         }
     }
 }
-
-
 
 education.display = function() {
     for(var item = 0; item < education.school.length; item++) {
@@ -204,12 +190,10 @@ projects.display = function () {
         var formattedProjDescription = HTMLprojectDescription.replace("%data%", projects.projects[proj].description);
         $(".project-entry:last").append(formattedProjDescription);   
         
-        var formattedImg = HTMLprojectImage.replace("%data%", projects.projects[proj].images);
-        $(".project-entry:last").append(formattedImg); 
+        // var formattedImg = HTMLprojectImage.replace("%data%", projects.projects[proj].images);
+        // $(".project-entry:last").append(formattedImg); 
     }
 }
-
-
 
 function inName(name) {
     name = name.trim().split(" ");
