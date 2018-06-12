@@ -2,7 +2,7 @@ var bio = {
     "name": "Farhana Mustafa",
     "role": "Aspiring Front End Engineer",
     "contacts": {
-        "mobile": "646-919-7836",
+        "mobile": "646-509-7544",
         "email": "farhana mustafa 3 at gmail",
         "github": "fmustafa17",
         "twitter": "farhanaxmustafa",
@@ -33,7 +33,6 @@ var education = {
                 "Operating Systems",
                 "Social Media Mining"
             ]
-
         }
     ],
     "onlineCourses": [
@@ -56,6 +55,13 @@ var education = {
 
 var work = {
     "jobs": [
+        {
+            "employer": "Kaiser Permanente",
+            "title": "Technical Associate",
+            "location": "Pleasanton, CA",
+            "dates": "July 2018 - Present",
+            "description": "Ongoing"
+        },
         {
             "employer": "iD Tech Camp",
             "title": "Instructor",
