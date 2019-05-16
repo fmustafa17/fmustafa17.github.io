@@ -249,6 +249,12 @@ a:not([href]):not([tabindex]) {
     text-transform: lowercase;
 }
 
+.devToColor {
+    padding-bottom: 4px;
+    background-color: white;
+    width: 20px;
+}
+
 /*-------------------------------------------------------------------
 
                         1. Preloader
