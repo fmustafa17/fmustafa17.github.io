@@ -1766,6 +1766,12 @@ h4.package {
     margin-top: 0;
 }
 
+.blog-body img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .pagination {
     display: inline-flex;
     margin-bottom: 0;
