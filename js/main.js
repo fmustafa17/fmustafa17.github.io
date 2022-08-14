@@ -65,16 +65,6 @@
 
 	});
 
-	// Typing Animation (Typed.js)
-	$('#element').typed({
-	    strings: ["UX, UI Designer", "Web App Developer", "Social Animal!"],
-	    typeSpeed: -50,
-	    loop: true,
-	    startDelay: 500,
-	    backDelay: 3000,
-	    contentType: 'html',
-	});
-
 	//Video background
 	$(".player").mb_YTPlayer({
 	    containment: '#video-wrapper',
