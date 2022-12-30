@@ -1,10 +1,10 @@
 # personal portfolio. developed by farhana
 
-## Resume
-Coding resume to demostrate front end skills.
+## About
+Description and show personal achievements
 
 ## Projects
-Showcasing personal projects with github links to the code.
+Showcasing personal projects with github links to the code or live versions, if available.
 
 ## Blog
 Writing blog posts to benefit the underrepresented community in tech.
